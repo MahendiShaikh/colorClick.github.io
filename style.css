@@ -1,0 +1,49 @@
+button{
+    background-color: #555555;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+    cursor: pointer;
+    margin:45vh 92vh;
+}
+
+
+@media(max-width:500px){
+    body{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        font-size:24px;
+    }
+}
+
+@media (min-width:501px) and (max-width:850px){
+    body{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        font-size:24px;
+    }
+}
+
+@media (min-width:851px) and (max-width:1024px){
+    body{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        font-size:24px;
+    }
+}
+    
